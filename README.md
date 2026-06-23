@@ -13,6 +13,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 
 1. The [PAM site](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html) provides instructions on how to request, setup, and work with the PAM Windows VMs.
 2. Click on the "submit a new issue here" link in [What are PAM Workstations](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html#what-are-pam-windows-workstations) to request a VM.
+3. TBD: I don't remember this process, but I ended up with a VM instance 
 
 ### Access the Windows VM
 1. When you have access to a VM, access the VM using the instructions in: [Access and Connection Instructions](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html#access-and-connection-instructions).
