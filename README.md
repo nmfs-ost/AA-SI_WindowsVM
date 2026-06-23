@@ -19,7 +19,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
    1. Use the "recommended IAP Desktop" option to access the VM.
    2. Install and setup the IAP Remote Desktop Connection according to the instructions.
 3. After you installed the IAP remote desktop connection, you can access the IAP app by typing IAP in the windows search box in your start menu.
-   For easier access, you can create an icon <img src="./images/IAP_icon.png" width="400" height="400"> on your taskbar.
+   For easier access, you can add the IAP icon <img src="./images/IAP_icon.png" width="50" height="50"> to your taskbar.
 5. 
 
 ## For new repositories in nmfs-ost organization
