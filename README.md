@@ -3,8 +3,8 @@
 ## About
 The AA-SI has access to a Windows Virtual Machine (WindowsVM) for processing and analyzing data in the Windows environment. These instructions are for users to:
 - Request a WindowsVM
-- Setup the WindowsVM
-- Install software </br>
+- Access the WindowsVM
+- Setup mount points for the AA-SI storage buckets
 
 As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM. At some time, hopefully in the near future, NOAA Fisheries OCIO will provide a VM and we will update this site. Until that time, we will provide instructions for the PAM VM. 
 
@@ -33,6 +33,32 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
    3. The username is pam_user, and there is no password (i.e., leave it blank)
    4. If it asks for your password again, just click "OK".
 7. It can take several tries to get the VM operational. If something happens, go back to IAP Desktop and try again, or sometimes it's necessary to stop the VM instance and start from the beginning.
+8. The first window that will open and be displayed is the cmd.exe window that starts the connection/mount to the ggn-nmfs-aa-dev-1-data storage bucket. The connection has been made when you see "The service rclone has been started" message.
+   1. **Minimize**, do **NOT** close this window, otherwise the mount point will be lost.
+1.  At this point, you will see the Windows screen with the various icons for applications and folders. You can close the "Project Explorer" to give yourself more screen space.
+2.  You are ready to use the Windows VM!
+
+### Using the Windows VM
+1. Until the mount is modified, you have access to AA-SI's "dev" storage bucket, but you will need access to the "prod" storage bucket.
+   1. Open a windows explorer and you will see "pamdata-gcs ggn-nmfs-aa-dev-1-da" mounted as the "P" drive (P:). You will need to mount the "prod" bucket.
+   2. There are a few ways to mount cloud storage buckets, and this is one way:
+      1. Double-click on the "user_drive_mounts_config" icon (folder icon).
+      2. Double-click on the "LAUNCH_MOUNT_EDITOR.bat" file.
+      3. A "Rclone Mount Editor" UI will appear.
+         1. The first time you create the mount:
+            1. Click on the "Add New" button
+            2. Mount Name: AA-SI_prod (or whatever you like, but it's useful to include "prod" somewhere in the name)
+            3. Drive Letter: Q (or whatever you like, just not P: or C:)
+            4. GCS Path: ggn-nmfs-aa-prod-1-data
+            5. Cache size and Cache timeout can be left as defaults.
+         2. Click on the "Mount Drive" button. This can take awhile and sometimes it doesn't appear that it works. But, refresh the Windows Explorer and you should see the Q drive (or whichever letter you selected) mounted to ggn-nmfs-aa-prod-1-data.
+         3. On subsequent mounts, the mount information will be stored and you will click on the mount name, which will populate the fields, and then click on "Mount Drive".
+2. You now have access to the AA-SI data in the "prod" environment.
+
+### Echoview
+1. We are currently using a timed cloud license. This license has three seats, meaning three people can be using Echoview simultaneously. We hope to have an annual license soon.
+2. The cloud-licensing instructions are found in: P:\Echoview\Echoview cloud licensing instructions.pdf (on "dev") or in this repo [Echoview Cloud License](). If you run Echoview and the license is not found or working, please see these instructions.
+
 
 ## For new repositories in nmfs-ost organization
 2) Add [topics](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to help users find repositories.
