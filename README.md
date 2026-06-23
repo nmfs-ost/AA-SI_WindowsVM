@@ -18,9 +18,11 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 1. When you have access to a VM, access the VM using the instructions in: [Access and Connection Instructions](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html#access-and-connection-instructions).
    1. Use the "recommended IAP Desktop" option to access the VM.
    2. Install and setup the IAP Remote Desktop Connection according to the instructions.
-3. After you installed the IAP remote desktop connection, you can access the IAP app by typing IAP in the windows search box in your start menu.
-   For easier access, you can add the IAP icon <img src="./images/IAP_icon.png" width="50" height="50"> to your taskbar.
-5. 
+3. After you have installed the IAP remote desktop connection, you can access the IAP app by typing IAP in the windows search box in your start menu.
+   For easier access, you can add the IAP icon <img src="./images/IAP_icon.png" width="25" height="25"> to your taskbar.
+5. The IAP Desktop application will open with a list of users on the left and a blank panel on the right.
+   Find your user name in the list 
+7. 
 
 ## For new repositories in nmfs-ost organization
 2) Add [topics](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to help users find repositories.
