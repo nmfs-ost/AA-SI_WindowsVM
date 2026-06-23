@@ -57,7 +57,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 
 ### Echoview
 1. We are currently using a timed cloud license. This license has three seats, meaning three people can be using Echoview simultaneously. We hope to have an annual license soon.
-2. The cloud-licensing instructions are found in: P:\Echoview\Echoview cloud licensing instructions.pdf (on "dev") or in this repo [Echoview Cloud License](./documents/Echoview_Echoview cloud licensing instructions.pdf). If you run Echoview and the license is not found or working, please see these instructions.
+2. The cloud-licensing instructions are found in: P:\Echoview\Echoview cloud licensing instructions.pdf (on "dev") or here [Echoview Cloud License](./docs/Echoview_Echoview cloud licensing instructions.pdf). If you run Echoview and the license is not found or working, please see these instructions.
 
 
 ## For new repositories in nmfs-ost organization
