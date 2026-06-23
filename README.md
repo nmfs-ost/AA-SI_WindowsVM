@@ -54,6 +54,10 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
          2. Click on the "Mount Drive" button. This can take awhile and sometimes it doesn't appear that it works. But, refresh the Windows Explorer and you should see the Q drive (or whichever letter you selected) mounted to ggn-nmfs-aa-prod-1-data.
          3. On subsequent mounts, the mount information will be stored and you will click on the mount name, which will populate the fields, and then click on "Mount Drive".
 2. You now have access to the AA-SI data in the "prod" environment.
+3. To exit make sure you do all these steps!
+   1. Click on the Windows icon in the lower left, select "Power", "Shutdown", then click on "Continue".
+   2. In the VM Instances, find your username, click on the vertical three dots and select "Stop".
+   3. If you do not do both of these, the VM Instance will continue and you will rack up charges.
 
 ### Echoview
 1. We are currently using a timed cloud license. This license has three seats, meaning three people can be using Echoview simultaneously. We hope to have an annual license soon.
