@@ -60,9 +60,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
    3. If you do not do both of these, the VM Instance will continue and you will rack up charges.
 
 ### Echoview
-1. We are currently using a timed cloud license. This license has three seats, meaning three people can be using Echoview simultaneously. We hope to have an annual license soon.
-2. The cloud-licensing instructions are found in: P:\Echoview\Echoview cloud licensing instructions.pdf (on "dev") or here [Echoview Cloud License]("./docs/Echoview_Echoview cloud licensing instructions.pdf"). If you run Echoview and the license is not found or working, please see these instructions.
-
+Please navigate to the AA-SI's [Echoview GitHub repo](https://github.com/nmfs-ost/AA-SI_Echoview/tree/main) for more information and instructions on using Echoview on the Windows VMs.
 
 ## For new repositories in nmfs-ost organization
 2) Add [topics](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to help users find repositories.
