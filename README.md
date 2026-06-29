@@ -2,9 +2,10 @@
 
 ## About
 The AA-SI has access to a Windows Virtual Machine (WindowsVM) for processing and analyzing data in the Windows environment. These instructions are for users to:
-- Request a WindowsVM
-- Access the WindowsVM
-- Setup mount points for the AA-SI storage buckets
+- [Request a WindowsVM](#Request-a-Windows-VM)
+- [Access a WindowsVM](#Access-a-Windows-VM)
+- [Use a WindowsVM](#Using-a-Windows-VM)
+- [Run Echoview](#Echoview)
 
 As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM. At some time, hopefully in the near future, NOAA Fisheries OCIO will provide a VM and we will update this site. Until that time, we will provide instructions for the PAM VM. 
 
@@ -21,7 +22,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
    4. Starting the VM can take some time...
    5. When you see the message "VM instance started", you can access the VM via the next set of instructions.
 
-### Access the Windows VM
+### Access a Windows VM
 1. When you have access to a VM, access the VM using the instructions in: [Access and Connection Instructions](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html#access-and-connection-instructions).
    1. Use the "recommended IAP Desktop" option to access the VM.
    2. Install and setup the IAP Remote Desktop Connection according to the instructions.
@@ -38,7 +39,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 1.  At this point, you will see the Windows screen with the various icons for applications and folders. You can close the "Project Explorer" to give yourself more screen space.
 2.  You are ready to use the Windows VM!
 
-### Using the Windows VM
+### Use a Windows VM
 1. Until the mount is modified, you have access to AA-SI's "dev" storage bucket, but you will need access to the "prod" storage bucket.
    1. Open a windows explorer and you will see "pamdata-gcs ggn-nmfs-aa-dev-1-da" mounted as the "P" drive (P:). You will need to mount the "prod" bucket.
    2. There are a few ways to mount cloud storage buckets, and this is one way:
@@ -62,7 +63,7 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 ### Echoview
 Please navigate to the AA-SI's [Echoview GitHub repo](https://github.com/nmfs-ost/AA-SI_Echoview/tree/main) for more information and instructions on using Echoview on the Windows VMs.
 
-## For new repositories in nmfs-ost organization
+## For new repositories in nmfs-ost organization (this is boilerplate and can be removed)
 2) Add [topics](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to help users find repositories.
 
 # Disclaimer
