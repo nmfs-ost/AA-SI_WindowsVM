@@ -12,7 +12,7 @@ As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM
 ### Request a Windows VM
 We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@noaa.gov) for the PAM-SI. The PAM-SI is graciously allowing the AA-SI to use this VM. The PAM Windows VM is set up for the AA-SI, especially for use with Echoview with a cloud license and for accessing the AA-SI Google storage bucket. For this reason, we request that modifications be reserved for the Fisheries VM. </br>
 
-1. The [PAM site](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html) provides instructions on how to request, setup, and work with the PAM Windows VMs.
+1. The <a href="https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html" target="_blank">PAM site</a> provides instructions on how to request, setup, and work with the PAM Windows VMs.
 2. Click on the "submit a new issue here" link in [What are PAM Workstations](https://nmfs-ost.github.io/PAM-Cloud/content/PAM.ww.html#what-are-pam-windows-workstations) to request a VM.
 3. **TBD**: I don't remember this process, but I ended up with a VM instance.
 4. After requesting the VM, you will get a VM Instance, which you will use to logon and access the VMs.
