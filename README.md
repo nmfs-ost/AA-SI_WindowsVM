@@ -7,7 +7,7 @@ The AA-SI has access to a Windows Virtual Machine (WindowsVM) for processing and
 - [Use a WindowsVM](#Using-a-Windows-VM)
 - [Run Echoview](#Echoview)
 
-As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM. At some time, hopefully in the near future, NOAA Fisheries OCIO will provide a VM and we will update this site. Until that time, we will provide instructions for the PAM VM. 
+As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM. At some time, hopefully in the near future, NOAA Fisheries OCIO will provide a VM and we will update this site. Until that time, we will provide instructions for the PAM VM. <a href="https://echoview.com" target="_blank">Test</a>
 
 ### Request a Windows VM
 We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@noaa.gov) for the PAM-SI. The PAM-SI is graciously allowing the AA-SI to use this VM. The PAM Windows VM is set up for the AA-SI, especially for use with Echoview with a cloud license and for accessing the AA-SI Google storage bucket. For this reason, we request that modifications be reserved for the Fisheries VM. </br>
