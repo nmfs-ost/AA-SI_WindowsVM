@@ -77,8 +77,18 @@ aalibrary is the primary file management package we use to move files to/from/wi
    1. You can do this using your windows explorer, power shell, or command prompt. If you click on the "+" symbol in the Google Cloud SDK Shell, you will get a power shell.
    2. In a power shell or command prompt window, change the directory to the project directory.  > cd "your-project-directory"
 3. Create a virtual python environment
-4. Activate the environment
-5. Install aalibrary
+   1. The virtual environment needs to be v3.13 for aalibrary and AA-SI tools to work properly.
+      1. Type this command: py -3.13 -m venv venv313
+      2. This will create a virtual environment named "venv313" with Python version 3.13
+5. Activate the environment
+   1. You must activate the virtual environment to use it (these assume you named your environment "venv313". Use whatever name you created instead of "venv313" if you did not)
+   2. If you want to use PowerShell you must fix the execution policy!
+      1. Type the command: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+      2. Then activate the virtual environment.
+   5. Type the command: .\venv313\Scripts\activate
+     1. The prompt will change to "(venv313) current-directory-name>" and you are now in the virtual environment.
+7. Install aalibrary
+8. To end your virtual environment, type the command: .\venv313\Scripts\deactivate
 
 ## For new repositories in nmfs-ost organization (this is boilerplate and can be removed)
 2) Add <a href="https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">topics</a> to help users find repositories.
