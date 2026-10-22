@@ -6,6 +6,7 @@ The AA-SI has access to a Windows Virtual Machine (WindowsVM) for processing and
 - [Access a WindowsVM](#Access-a-Windows-VM)
 - [Use a WindowsVM](#Using-a-Windows-VM)
 - [Run Echoview](#Echoview)
+- [Install aalibrary](#aalibrary)
 
 As of summer 2026, we are using the passive acoustics monitoring (PAM) WindowsVM. At some time, hopefully in the near future, NOAA Fisheries OCIO will provide a VM and we will update this site. Until that time, we will provide instructions for the PAM VM. <a href="https://echoview.com" target="_blank">Test</a>
 
@@ -63,6 +64,9 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 
 ### Echoview
 Please navigate to the AA-SI's <a href="https://github.com/nmfs-ost/AA-SI_Echoview/tree/main" target="_blank">Echoview GitHub repo</a> for more information and instructions on using Echoview on the Windows VMs.
+
+### aalibrary
+aalibrary is the primary file management package we use to move files to/from/within the cloud environment.
 
 ## For new repositories in nmfs-ost organization (this is boilerplate and can be removed)
 2) Add <a href="https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">topics</a> to help users find repositories.
