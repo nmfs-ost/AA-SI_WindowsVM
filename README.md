@@ -85,12 +85,13 @@ aalibrary is the primary file management package we use to move files to/from/wi
    2. If you want to use PowerShell you must fix the execution policy!
       1. Type the command: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
       2. Then activate the virtual environment.
-   5. Type the command to activate: .\venv313\Scripts\activate
+   3. Type the command to activate: .\venv313\Scripts\activate
      1. The prompt will change to "(venv313) current-directory-name>" and you are now in the virtual environment.
 7. Install aalibrary
    1. This Step 4 of the <a href="https://nmfs-ost.github.io/AA-SI_aalibrary/getting-started/installation/" target="_blank"> aalibrary install process </a>.
-   2. You need to be in the virtual environment!
+   2. You need to be active in the virtual environment!
    3. Type the command: python -m pip install aalibrary@git+https://github.com/nmfs-ost/AA-SI_aalibrary.git
+      1. This can take several minutes.
 9. To end your virtual environment, type the command: deactivate
 
 ## For new repositories in nmfs-ost organization (this is boilerplate and can be removed)
