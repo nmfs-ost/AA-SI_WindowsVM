@@ -66,7 +66,19 @@ We are using a Windows VM that was created by Daniel Woodrich (daniel.woodrich@n
 Please navigate to the AA-SI's <a href="https://github.com/nmfs-ost/AA-SI_Echoview/tree/main" target="_blank">Echoview GitHub repo</a> for more information and instructions on using Echoview on the Windows VMs.
 
 ### aalibrary
-aalibrary is the primary file management package we use to move files to/from/within the cloud environment.
+aalibrary is the primary file management package we use to move files to/from/within the cloud environment. A basic install guide is found at the <a href="https://nmfs-ost.github.io/AA-SI_aalibrary/getting-started/installation/" target="_blank"> aalibrary Git page </a>. This guide is better suited towards the Linux-based workstations, so we have included instructions specifically for Windows here. The steps follow the aalibrary install guide linked above.
+1. Step 1. Install gcloud CLI tool.
+   1. I found it easiest to download the <a href="https://docs.cloud.google.com/sdk/docs/install-sdk#windows" target="_blank" Google Cloud CLI installer </a> and use that to install gcloud. This will point you to the latest installer to download.
+   2. You may need IT to install gcloud CLI.
+   3. Install can take several minutes
+   4. As part of the install, you should have a "Google Cloud SDK Shell" ![icon](https://github.com/nmfs-ost/AA-SI_WindowsVM/blob/main/docs/gcloud_SDK.png) on your desktop.
+   5. Double-click to open the shell and follow Step 2 in the <a href="https://nmfs-ost.github.io/AA-SI_aalibrary/getting-started/installation/" target="_blank"> install instructions </a>.
+2. Create a directory for your Python project.
+   1. You can do this using your windows explorer, power shell, or command prompt. If you click on the "+" symbol in the Google Cloud SDK Shell, you will get a power shell.
+   2. In a power shell or command prompt window, change the directory to the project directory.  > cd "your-project-directory"
+3. Create a virtual python environment
+4. Activate the environment
+5. Install aalibrary
 
 ## For new repositories in nmfs-ost organization (this is boilerplate and can be removed)
 2) Add <a href="https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics" target="_blank">topics</a> to help users find repositories.
